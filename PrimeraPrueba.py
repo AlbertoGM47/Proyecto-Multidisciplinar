@@ -8,5 +8,5 @@ button1=st.button("Pedido nuevo")
 if button1:
   st.write("Has pulsado en el boton :)")
 
-like = st.checkbox("Do you like this app?")
+like = st.checkbox("Soporte SP1 seleccionado")
 
