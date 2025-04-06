@@ -6,7 +6,7 @@ st.write("Esta es la app para el puesto de montaje de los ruedines. Aquí aparec
 
 button1=st.button("Pedido nuevo")
 if button1:
-  st.write("Has pulsado en el boton :)")
+  st.write("Has pulsado en el boton.🤝")
 
 like1 = st.checkbox("Soporte S1 seleccionado")
 like2 = st.checkbox("Rueda WN2 seleccionado")
@@ -17,3 +17,7 @@ like6 = st.checkbox("Tuerca M8 seleccionado")
 
 if like1 and like2 and like3 and like4 and like5 and like6:
   button2=st.button("Ensamblaje")
+if button2:
+  st.write("Has pulsado en el boton ensamblaje, ahora apareceria que pasos seguir")
+
+
