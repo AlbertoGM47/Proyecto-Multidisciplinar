@@ -1,3 +1,5 @@
 import streamlit as st
 
-st.write("This is my new app")
+st.title("Puesto de montaje😎")
+
+st.write("Esta es la app")
