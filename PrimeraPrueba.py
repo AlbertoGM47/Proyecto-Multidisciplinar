@@ -15,7 +15,7 @@ like4 = st.checkbox("Rodamiento seleccionado")
 like5 = st.checkbox("Tornillo M8x60 seleccionado")
 like6 = st.checkbox("Tuerca M8 seleccionado")
 
-if like1 & like2 & like3=true
+if like1 and like2 and like3:
   button2=st.button("Ensamblaje")
   if button2:
   st.write(like1,like2,like3,like4,like5,like6)
