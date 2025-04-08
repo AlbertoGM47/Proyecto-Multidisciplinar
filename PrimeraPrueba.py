@@ -24,7 +24,11 @@ st.image('IMG-20250325-WA0017.jpeg')
 
 st.header("Ensamblaje")
 
-st.radio("(Una Pregunta)",("Opcion 1","Opcion 2","Opcion 3"))
-
+Respuesta=st.radio("(Una Pregunta)",("Opcion 1","Opcion 2","Opcion 3"))
+button3= st.button("Aceptar")
+if button3:
+  st.write(Respuesta)
+  if Respuesta == "Opcion 1":
+    st.write("Has elegido la Opcion 1")
 
 
