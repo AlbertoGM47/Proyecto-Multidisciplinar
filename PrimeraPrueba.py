@@ -22,4 +22,9 @@ if like1 and like2 and like3 and like4 and like5 and like6:
 
 st.image('IMG-20250325-WA0017.jpeg')
 
+st.header("Ensamblaje")
+
+st.radio("(Una Pregunta)",("Opcion 1","Opcion 2","Opcion 3"))
+
+
 
