@@ -20,6 +20,6 @@ if like1 and like2 and like3 and like4 and like5 and like6:
     if button2:
         st.write("Has pulsado en el botón ensamblaje, aquí aparecerían los pasos a seguir para montarlo.")
 
-st.image(
+st.image("IMG-20250325-WA0017.jpeg")
 
 
