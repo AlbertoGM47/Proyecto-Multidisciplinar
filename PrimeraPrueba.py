@@ -46,3 +46,8 @@ texto_usuario = st.text_input("Escribe aqui lo que quieras")
 if st.button("Aceptar"):
   st.write(texto_usuario)
 
+
+numero_usuario = st.number_input("Escribe aqui un numero")
+if st.button("Aceptar"):
+  st.write(numero_usuario)
+
