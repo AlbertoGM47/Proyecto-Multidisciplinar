@@ -43,11 +43,11 @@ Control_deslizante=st.slider("Escoge un valor del 1 al 100",1,100)
 Control_deslizante=st.slider("Escoge un valor del 1 al 100",1,100,10)
 
 texto_usuario = st.text_input("Escribe aqui lo que quieras")
-if st.button("Aceptar"):
+if st.button("Aceptar texto"):
   st.write(texto_usuario)
 
 
 numero_usuario = st.number_input("Escribe aqui un numero")
-if st.button("Aceptar"):
+if st.button("Aceptar numero"):
   st.write(numero_usuario)
 
