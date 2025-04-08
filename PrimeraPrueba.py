@@ -32,3 +32,9 @@ if button3:
     st.write("Has elegido la Opcion 1")
 
 
+Multirespuesta = st.multiselect("Escoge varias opciones",["Multirespuesta1","Multirespuesta2","Multirespuesta3","Multirespuesta4"])
+button4= st.button("Mostrar multirespuesta")
+if button4:
+                   st.write(Multirespuesta)
+                  
+
