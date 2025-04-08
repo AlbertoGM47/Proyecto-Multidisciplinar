@@ -36,5 +36,16 @@ Multirespuesta = st.multiselect("Escoge varias opciones",["Multirespuesta1","Mul
 button4= st.button("Mostrar multirespuesta")
 if button4:
                    st.write(Multirespuesta)
-                  
+
+
+Control_deslizante=st.slider("Escoge un valor del 1 al 100",1,100)
+
+Control_deslizante=st.slider("Escoge un valor del 1 al 100",1,100,10)
+
+if Control_deslizante == "20":
+  button5= st.button("Numero 20")
+
+texto_usuario = st.text_input("Escribe aqui lo que quieras")
+if st.button("Aceptar"):
+  st.write(texto_usuario)
 
