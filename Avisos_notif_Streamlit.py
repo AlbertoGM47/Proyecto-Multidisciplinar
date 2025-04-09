@@ -1,16 +1,12 @@
 import streamlit as st
 
-st.toast("¡Proceso completado con éxito!", icon="🎉")
+# Simulamos una condición para mostrar el mensaje
+mostrar_aviso = True  # Podrías usar alguna lógica para esto
 
-st.info("Este es un mensaje informativo.")
-st.warning("¡Cuidado! Esta es una advertencia.")
-st.error("Ocurrió un error inesperado.")
-st.success("¡Operación realizada exitosamente!")
+st.title("Notificación previa al botón")
 
-import streamlit as st
-import time
+if mostrar_aviso:
+    st.info("Ya puedes presionar el botón para continuar. 👇")
 
-placeholder = st.empty()
-placeholder.success("¡Esto se eliminará en 3 segundos!")
-time.sleep(3)
-placeholder.empty()
+if st.button("Ejecutar acción"):
+    st.success("¡Botón presionado y acción ejecutada!")
