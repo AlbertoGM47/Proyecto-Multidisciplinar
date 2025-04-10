@@ -1,5 +1,11 @@
 import streamlit as st
 
+import streamlit as st
+
+st.toast("¡Proceso completado con éxito!", icon="🎉")
+
+
+
 # Simulamos una condición para mostrar el mensaje
 mostrar_aviso = True  # Podrías usar alguna lógica para esto
 
